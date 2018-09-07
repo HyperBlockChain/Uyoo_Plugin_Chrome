@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./../static/css/common.css">
+  <link rel="stylesheet" href="./../static/css/right.css">
+  <title>快捷登记插件</title>
+</head>
+<body>
+  <div id="page">
+    
+    <div class="container c">
+      <div class="preview l">
+        <img src="" alt="">
+
+        <p></p>
+      </div>
+
+      <div class="info">
+        <div class="tc">
+          <img class="logo" src="./../static/img/logo.png" alt="">
+        </div>
+
+        <div class="">
+          <input id="workstitle" class="workstitle formInfo" type="text" placeholder="请输入作品标题" maxlength="20">
+          <div class="workstitleErr err"></div>
+        </div>
+
+        <div class="">
+          <input id="worksauthor" class="worksauthor formInfo" type="text" placeholder="请输入该作品的作者名称" maxlength="20">
+          <div class="worksauthoreErr err"></div>
+        </div>
+
+        <div class="">
+          <input id="worksowner" class="worksowner formInfo" type="text" placeholder="请输入版权所有者名称" maxlength="30">
+          <div class="worksownerErr err"></div>
+        </div>
+        
+        <div class="hash">
+          <div class="tit">作品数字指纹</div>
+
+          <div class="workshash">dsadsa</div>
+        </div>
+        
+        <div class="agreements">
+          <input class="agreement" type="checkbox" checked>
+          <span class="f12">我保证我通过此插件提交到吾有(TM)平台的数字内容符合当地的法律法规，并且我本人对该内容的使用拥有相应合法的使用权利。</span>
+        </div>
+        
+        <div class="tc">
+          <button class="submitBtn" type="button">登记</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container tc submitsucceed h">
+      <div class="sec1">
+        <img src="./../static/img/succeed.png" alt="">
+        <span>提交成功</span>
+      </div>
+      <p class="sec2">作品已提交到吾有平台，<br>您可以在吾有平台继续定价和发布交易，点击<a class="priceLink" href="javascript:;">立即定价</a>。</p>
+
+      <div class="tc">
+        <button class="closeBtn" type="button">关闭</button>
+      </div>
+      
+      <div class="sec3 h">
+        <a href="https://uyoo.hyperchain.net/works" target="_blank">查看我的作品库</a>
+        <span><em class="countdown">5</em>秒后自动关闭窗口</span>
+      </div>
+    </div>
+
+    <div class="container tc submiterror h">
+      <div class="sec1">
+        <img src="./../static/img/error.png" alt="">
+        <span>提交失败</span>
+      </div>
+      <p class="sec2">失败原因连接不到服务器或连接超时<br>显示错误码余额不足等</p>
+      
+      <div class="sec3">
+        <button class="closeBtn" type="button">关闭</button>
+        <button class="submitBtn" type="button">重试</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="./../static/js/sha512.js"></script>
+  <script src="./../static/js/jquery-1.8.3.js"></script>
+  <script src="./../static/js/common.js"></script>
+  <script src="./../static/js/right.js"></script>
+</body>
+</html>

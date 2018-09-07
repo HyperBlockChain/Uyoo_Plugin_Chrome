@@ -1,0 +1,184 @@
+#page {
+  position: relative;
+  padding: 25px;
+  min-height: 100vh;
+  line-height: 1;
+  background-color: #f8f8fb;
+  font-family: Helvetica, '微软雅黑', Arial, '宋体', 'Microsoft Yahei';
+  font-size: 14px;
+  color: #333;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 860px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.info {
+  margin-right: 10px;
+  padding: 20px 15px;
+  width: 260px;
+  background-color: #fff;
+}
+
+.priceing {
+  display: table-cell;
+  width: 9999px;
+}
+
+.box {
+  line-height: 14px;
+  font-size: 12px;
+  color: #888;
+}
+
+.workstitle {
+  margin-bottom: 10px;
+}
+
+.skipBtn {
+  margin: 0 15px;
+  width: 106px;
+  height: 40px;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #888;
+}
+
+.publishBtn {
+  margin: 0 15px;
+  width: 106px;
+  height: 40px;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  background-color: #f3a01b;
+  color: #fff;
+}
+
+.js-uyooAgreementContainer {
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.js-uyooAgreementContainer h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.js-uyooAgreementContainer h4 {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.js-uyooAgreementContainer .js-basic,
+.js-uyooAgreementContainer .js-other {
+  padding: 20px 12px;
+  border: 1px solid #e9e9e9;
+  background-color: #f8f8fb;
+  font-size: 12px;
+}
+
+.js-uyooAgreementContainer .p-item {
+  display: inline;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.js-uyooAgreementContainer input[type="radio"] {
+  margin-right: 5px;
+}
+
+.js-uyooAgreementContainer input[type="text"] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 106px;
+  height: 24PX;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.f20 {
+  font-size: 14px;
+}
+.fyellow {
+  color: #f3a01c;
+}
+
+.fblue {
+  color: #3c65a8;
+}
+
+.fgreen {
+  color: #469f43;
+}
+
+.err {
+  height: 30px;
+  line-height: 24px;
+  color: #ff8c44;
+}
+
+.sec1 {
+  padding-top: 70px;
+}
+
+.sec1 img {
+  vertical-align: middle;
+}
+
+.sec1 span {
+  margin-left: 20px;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sec2 {
+  margin-top: 35px;
+  line-height: 28px;
+  color: #000;
+}
+
+.sec3 {
+  margin-top: 60px;
+  font-size: 0;
+}
+
+.sec3 a {
+  padding-right: 10px;
+  border-right: 1px solid #e9e9e9;
+  font-size: 14px;
+  color: #ff8c44;
+}
+
+.sec3 span {
+  padding-left: 10px;
+  border-left: 1px solid #e9e9e9;
+  font-size: 14px;
+  color: #888;
+}
+
+.sec3 em {
+  font-size: 14px;
+  color: #888;
+}
+
+.closeBtn {
+  margin: 10px 20px 0;
+  width: 70px;
+  height: 36px;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #888;
+}

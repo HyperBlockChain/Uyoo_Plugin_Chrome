@@ -1,0 +1,99 @@
+#page {
+  padding: 0 8px;
+  width: 160px;
+  line-height: 1;
+  font-family: Helvetica, '微软雅黑', Arial, '宋体', 'Microsoft Yahei';
+  font-size: 13px;
+  color: #000;
+}
+
+.bb {
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  padding: 8px 7px;
+}
+
+h2 span {
+  font-weight: bold;
+}
+
+h2 img {
+  margin-right: 12px;
+  width: 16px;
+  height: 16px;
+}
+
+.collection-item {
+  margin: 3px 0;
+  padding: 0 7px;
+  height: 24px;
+  border: 1px solid #fff;
+  line-height: 22px;
+}
+
+.collection-item:hover {
+  border-color: #e5e5e5;
+  background-color: #f9f9fa;
+}
+
+.collection-item img {
+  margin-right: 12px;
+}
+
+.register {
+  padding: 10px 7px;
+}
+
+.register-portrait {
+  float: left;
+  margin-right: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+
+.register-info {
+  display: table-cell;
+  width: 9999px;
+}
+
+.register-btn {
+  display: block;
+}
+
+.register-btn:hover {
+  color: #ff8c44;
+}
+
+.register-btn:nth-child(2) {
+  margin-top: 5px;
+}
+
+.register-username {
+  display: inline-block;
+  max-width: 60px;
+}
+
+.otherInfo {
+  padding: 13px 0 13px 7px;
+}
+
+.otherInfo p:nth-child(2) {
+  margin-top: 16px;
+}
+
+.uyoo-link {
+  font-weight: bold;
+  color: #ff8c44;
+}
+
+.uyoo-link:hover {
+  text-decoration: underline;
+}
+
+.logoutBtn {
+  display: block;
+  cursor: pointer;
+}

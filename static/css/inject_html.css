@@ -1,0 +1,77 @@
+.inject_html {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: rgba(0, 0, 0, .75);
+}
+
+.inject_html-header {
+  height: 50px;
+  text-align: left;
+  background-color: #fff;
+}
+
+.inject_html-header img {
+  margin: 10px 0 0 20px;
+}
+
+.close-collecting {
+  float: right;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  background: url(https://uyoo.hyperchain.net/img/x.png) no-repeat center;
+}
+
+.inject_html-imgItem {
+  position: relative;
+  float: left;
+  margin: 10px;
+}
+
+.inject_html-imgItem:hover:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.cbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1000000;
+  transform: translate(-50%, -50%);
+  display: none;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #f29c19;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.inject_html-imgItem:hover .cbtn {
+  display: inline-block;
+}
+
+.contss {
+  padding: 30px 50px;
+}
+
+.de_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 100000;
+  transform: translate(-50%, -50%);
+}
